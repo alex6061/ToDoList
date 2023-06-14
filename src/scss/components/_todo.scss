@@ -1,0 +1,35 @@
+.todo {
+  margin: 0 auto;
+  padding: 50px 0;
+  background-color: #3b2637;
+  width: 500px;
+  height: 800px;
+}
+
+.inner {
+  position: relative;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  display: flex;
+  gap: 5px;
+  padding: 20px 15px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.options {
+  width: 140px;
+  height: 26px;
+}
+
+
+
+
+

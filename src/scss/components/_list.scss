@@ -1,0 +1,16 @@
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list li{
+    width: 100%;
+    padding: 10px 15px;
+    margin: 15px 0 ;
+    background-color:#fc844c;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  & .checked {
+    text-decoration: line-through;
+  }
+}
